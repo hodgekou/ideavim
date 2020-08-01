@@ -1,0 +1,106 @@
+
+
+
+
+
+
+let mapleader=','
+
+set scrolloff=3
+set history=100000
+
+" vim和系统共用剪贴板
+set clipboard=unnamed
+
+
+
+" 以上是自定义快捷键-----------------
+" (关于窗口操作)
+" 跳转窗口最近的窗口
+nnoremap <Leader>ww <C-W>w
+
+" Tab operation
+" (切换标签)
+nnoremap tn gt
+nnoremap tp gT
+
+" 关闭窗口
+nnoremap <Leader>wd <C-W>c
+
+" 横开
+nnoremap <Leader>ws <C-W>s
+" 竖开
+nnoremap <Leader>wv <C-W>v
+
+ ==================================================
+
+"查找用法
+nnoremap <Leader>fu :action FindUsages<CR>
+
+"打断点
+"nnoremap <Leader>bb :action ToggleLineBreakpoint<CR>
+
+"查看所有断点
+"nnoremap <Leader>br :action ViewBreakpoints<CR>
+
+"DUG启动
+"nnoremap <Leader>cd :action ChooseDebugConfiguration<CR>
+
+"跳转到Action
+nnoremap <Leader>ga :action GotoAction<CR>
+
+"跳转到实体类
+nnoremap <Leader>gc :action GotoClass<CR>
+
+"跳转到文件
+nnoremap <Leader>gf :action GotoFile<CR>
+
+"跳转到实现类
+nnoremap <Leader>gi :action GotoImplementation<CR>
+
+"跳转到声明
+nnoremap <Leader>gd :action GotoDeclaration<CR>
+
+"跳转到测试类(没有则自动建立)
+nnoremap <Leader>gt :action GotoTest<CR>
+
+"显示当前文件路径
+nnoremap <Leader>fp :action ShowFilePath<CR>
+
+"修改所有的关联名字
+nnoremap <Leader>re :action RenameElement<CR>
+
+"修改当前文件的文件名
+nnoremap <Leader>rf :action RenameFile<CR>
+
+"关闭活动显示板
+nnoremap <Leader>tc :action CloseActiveTab<CR>
+
+"打开活动显示板
+nnoremap <Leader>tl Vy<CR>:action ActivateTerminalToolWindow<CR>
+
+"改变视图
+nnoremap <Leader>cv :action ChangeView<CR>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
